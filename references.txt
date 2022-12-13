@@ -1,0 +1,10 @@
+https://python.readthedocs.io/en/v2.7.2/howto/curses.html
+https://sceweb.sce.uhcl.edu/helm/WEBPAGE-Python/documentation/howto/curses/node4.html
+https://www.programiz.com/python-programming/datetime/current-datetime
+https://www.geeksforgeeks.org/vars-function-python/
+https://stackoverflow.com/questions/243836/how-to-copy-all-properties-of-an-object-to-another-object-in-python
+https://stackoverflow.com/questions/6886493/get-all-object-attributes-in-python
+https://stackoverflow.com/questions/9633479/how-to-move-pad-correctly
+https://www.w3schools.com/python/ref_string_replace.asp
+https://docs.python.org/3/howto/curses.html
+https://sites.ualberta.ca/dept/chemeng/AIX-43/share/man/info/C/a_doc_lib/aixprggd/genprogc/windows_curses_envir.htm
