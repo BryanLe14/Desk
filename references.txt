@@ -8,3 +8,8 @@ https://stackoverflow.com/questions/9633479/how-to-move-pad-correctly
 https://www.w3schools.com/python/ref_string_replace.asp
 https://docs.python.org/3/howto/curses.html
 https://sites.ualberta.ca/dept/chemeng/AIX-43/share/man/info/C/a_doc_lib/aixprggd/genprogc/windows_curses_envir.htm
+https://www.geeksforgeeks.org/time-strftime-function-in-python/
+https://gist.github.com/ian-weisser/10012692
+https://stackoverflow.com/questions/63885189/python-curse-show-clock-example-refresh-data
+https://www.devdungeon.com/content/curses-programming-python
+https://www.tutorialspoint.com/python/time_strftime.htm

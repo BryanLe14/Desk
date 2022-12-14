@@ -12,8 +12,6 @@
 # with t.location(0, t.height - 1):
 # 	print('Values')
 
-import math
-import time
 import calendar
 import datetime
 from datetime import date
@@ -102,19 +100,13 @@ def main(stdscr):
 	
 	def init_clock_pad(self):
 		dt = str(datetime.datetime.now()).split(' ')
-		dt = str(time.strftime("""Today is %A,
-%B %d, %G
-
-%R""")).split('\n')
-		for i in range(len(dt)):
-			wss = math.ceil((21 - len(dt[i])) / 2) * " "
-			dt[i] = f"{wss}{dt[i]}{wss}"
+		dt[0] = (20 - len(dt[0])) / 2
 		new_clock_str = '\n'.join(dt)
 		self.addstr(1, 1, str(new_clock_str))
 		self.box()
 		self.redraw(0, 0)
 		
-	pads['clock'] = Pad(24, 0, 23, 7, initfunc=init_clock_pad)
+	pads['clock'] = Pad(24, 0, 22, 5, initfunc=init_clock_pad)
 
 	pads['dummy'].getch()
 	
@@ -128,7 +120,6 @@ def quit():
 	
 if __name__=='__main__':
 	try:
-		calendar.setfirstweekday(6)
 		stdscr = curses.initscr()
 		curses.noecho()
 		curses.cbreak()
